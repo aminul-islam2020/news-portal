@@ -6,7 +6,7 @@ const newsData = [
         summary:
             "World leaders unite on ambitious climate targets as scientists warn of critical tipping points approaching faster than expected.",
         category: "Environment",
-        imageUrl: "/climate-summit-leaders.png",
+        imageUrl: "https://i.postimg.cc/L54bHJRK/images.jpg",
     },
     {
         title: "Tech Giants Face New Regulatory Challenges",

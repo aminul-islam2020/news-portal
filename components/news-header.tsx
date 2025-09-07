@@ -72,10 +72,10 @@ export function NewsHeader() {
 
                         {/* Right - Register and Sign In */}
                         <div className="flex items-center space-x-2">
-                            <Button variant="default" size="sm" className="bg-primary text-white hover:bg-white hover:text-primary">
+                            <Button variant="default" size="sm" className="bg-primary text-white hover:bg-gray-800">
                                 Register
                             </Button>
-                            <Button variant="outline" size="sm" className="border-primary text-black hover:bg-primary bg-transparent">
+                            <Button variant="outline" size="sm" className="border-black text-black hover:bg-gray-100 bg-transparent">
                                 Sign In
                             </Button>
                         </div>
@@ -84,7 +84,7 @@ export function NewsHeader() {
 
                 <div className="border-t border-border bg-background">
                     <div className="container mx-auto px-4">
-                        <nav className="flex items-center space-x-8 py-2 overflow-x-auto">
+                        <nav className="flex items-center justify-center space-x-8 py-2 overflow-x-auto">
                             {mainNavCategories.map((category) => (
                                 <a
                                     key={category}
